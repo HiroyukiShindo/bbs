@@ -1,0 +1,55 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background-color: #eee;
+	margin-bottom: 60px;
+}
+
+body > .container {
+	background-color: #fff;
+	max-width: 800px;
+	padding: 60px 15px 0;	
+}
+
+.container .text-muted {
+	margin: 20px 0;
+}
+
+code {
+	font-size: 80%;
+}
+
+textarea {
+	resize: vertical;
+}
+
+hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.media-divide {
+	margin-top: 40px;
+}
+
+.media-comment-div {
+	margin-top: 30px;
+}
+
+.media-article-text {
+	width: 695px;
+	word-wrap: break-word;
+}
+
+.media-comment-text {
+	width: 622px;
+	word-wrap: break-word;
+}
+
+.no-media-notification {
+	margin-top: 10px;
+}
+
