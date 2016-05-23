@@ -18,14 +18,14 @@
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#">JavaServlet電子掲示板システム</a>
+				<a class="navbar-brand" href="#">JavaServlet電子掲示板サンプル</a>
 			</div>
 		</div>
 	</nav>
 	<%-- body --%>
 	<body>
 		<div class="container">
-			<div class="row">	
+			<div class="row">
 				<div class="col-sm-12">
 					<% String message = (String) request.getAttribute("errMessage"); %>
 					<% if (message != null && !message.equals("")) { %>
